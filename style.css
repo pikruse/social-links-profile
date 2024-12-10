@@ -4,12 +4,51 @@
     src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.button {
+    text-align: center;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    margin: auto;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 65%;
+}
+
+.button:hover {
+    text-align: center;
+    font-weight: 700;
+    color: hsl(0, 0%, 12%);
+    background-color: hsl(75, 94%, 57%);
+    margin: auto;
+}
+
+.container {
+    width: 25%;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px 0 40px;
+    margin: auto;
+
+}
+
 img {
+    width: 25%;
     margin: auto;
     border-radius: 50%;
 }
 
 body {
+    margin:0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
     font-family: Inter;
     font-size: 14px;
     background-color: hsl(0, 0%, 8%);
@@ -34,21 +73,3 @@ p {
     color: hsl(0, 0%, 100%);
 }
 
-.container {
-    width: 50%;
-    background-color: hsl(0, 0%, 12%);
-}
-
-.img-container{
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-.button {
-    text-align: center;
-    font-weight: 700;
-    color: hsl(0, 0%, 100%);
-    background-color: hsl(0, 0%, 20%);
-    margin: auto;
-}
